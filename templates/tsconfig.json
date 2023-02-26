@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig-checks.json",
+  "extends": "./tsconfig-checks.json",
   "include": ["src/**/*"],                               /* .ts, .tsx, and .d.ts file extension by default, with .js and .jsx if allowJs is set to true */
   "exclude": ["node_modules", "public", "**/__tests__", "**/*.test.ts"],
 
